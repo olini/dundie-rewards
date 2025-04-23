@@ -7,4 +7,9 @@ setup(
     description="Reward Point System for Dunder Mifflin",
     author="Lucas Olini",
     packages=find_packages(),  # packages=["dundie"],  # podemos especificar as pastas que contem os pacotes
+    entry_points={
+        "console_scripts": [
+            "dundie = dundie.__main__:main"
+        ]
+    }
 )

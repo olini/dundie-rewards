@@ -1,1 +1,2 @@
-print("Main Executable")
+def main():
+    print("Main Executable")
